@@ -16,7 +16,7 @@ const Footer = () => {
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
         Ready to 
-          <span className="text-purple"> upgrade</span> you home?
+          <span className="text-purple"> upgrade</span> your home?
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
           Contact us today to discuss how we can bring quality and elegance to your living space.

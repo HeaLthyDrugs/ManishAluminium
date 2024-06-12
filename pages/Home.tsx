@@ -1,9 +1,12 @@
+import ChangingText from "@/components/ChangingText";
 import Footer from "@/components/Footer";
+import GridImages from "@/components/GridImages";
 import Hero from "@/components/Hero";
+import MateorCard from "@/components/MateorCard";
+import StickyScrollbar from "@/components/StickyScrollbar";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import { navItems } from "@/data";
 import React from "react";
-import GradientText from "@/components/GradientText";
 
 function Home() {
   return (
@@ -11,7 +14,14 @@ function Home() {
       <div className="max-w-7xl w-full">
         <FloatingNav navItems={navItems} />
         <Hero />
-        <GradientText />
+        <div className="flex flex-row items-center justify-center gap-10 my-5">
+          <MateorCard />
+          <ChangingText />
+        </div>
+        <StickyScrollbar />
+        <div className="">
+        <GridImages />
+        </div>
         <Footer />
       </div>
     </main>
